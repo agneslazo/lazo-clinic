@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "$id": "https://lazo-clinic-emr.com/schemas/patient.schema.json",
+  "title": "patient-schema",
+  "type": "object",
+  "properties": {
+    "name__first_name": {
+      "type": "string"
+    },
+    "name__last_name": {
+      "type": "string"
+    },
+    "name__middle_name": {
+      "type": "string"
+    },
+    "name__suffix": {
+      "type": "string"
+    },
+    "parent__id_list": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
